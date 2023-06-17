@@ -677,3 +677,6 @@ App-stock.com,256917,RESELLER
 videoheroes.tv, 212550, RESELLER, 064bc410192443d8
 thebrave.io, 1234648, RESELLER, c25b2154543746ac 
 toponad.com, 161932b823ec20, RESELLER, 1d49fe424a1a456d
+
+#admob
+google.com, pub-9003409029722434, DIRECT, f08c47fec0942fa0
