@@ -362,6 +362,7 @@ yahoo.com, 59627, RESELLER
 yandex.com, 95746987, RESELLER
 yeahmobi.com, 15984, RESELLER
 yeahmobi.com, 5135224, RESELLER
+pubmatic.com, 163420, RESELLER, 5d62403b186f2ace
 
 # tapjoy (June 5, 2023)
 tapjoy.com, f1662630706745138e1399e0a3e1e692, DIRECT, 29e595b1aeb5904d
