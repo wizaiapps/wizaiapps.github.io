@@ -7,8 +7,11 @@
     <script>
         function yonlendir() {
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
+            
             // iOS kontrolü
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            if ((/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) || isMac) {
                 window.location = "https://apps.apple.com/tr/app/grammar-check-correct-fixy/id6449986515";
                 return;
             }
