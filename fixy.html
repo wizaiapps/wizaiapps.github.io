@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulama Yönlendirme</title>
+    <script>
+        function yonlendir() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            // iOS kontrolü
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location = "https://apps.apple.com/tr/app/grammar-check-correct-fixy/id6449986515";
+                return;
+            }
+            // Android veya diğer cihazlar için
+            window.location = "https://play.google.com/store/apps/details?id=com.neogpt.english.grammar";
+        }
+    </script>
+</head>
+<body onload="yonlendir()">
+    <p>Yönlendiriliyorsunuz...</p>
+</body>
+</html>
