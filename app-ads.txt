@@ -1,2 +1,1 @@
-#admob
-google.com, pub-9003409029722434, DIRECT, f08c47fec0942fa0
+
